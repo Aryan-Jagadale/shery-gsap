@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  padding: 3vw 10vw;
+  justify-content: space-between;
+}
+
+#nleft {
+  display: flex;
+  gap: 30px;
+}
+
+#nav a {
+    display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+#hero {
+  width: 100%;
+  align-items: center;
+  margin-top: 12vw;
+  padding: 0vw 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sustain {
+  width: 10vw;
+}
+#sustain #sustainImageWrapper {
+  width: 100%;
+  height: 15vw;
+
+}
+
+#sustain p {
+  font-size: 12px;
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
+#sustain #sustainImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#ephermal {
+  width: 30vw;
+  min-height: 40vw;
+  position: relative;
+}
+
+#imgntext {
+  width: fit-content;
+  height: fit-content;
+}
+
+#ephermal #headings {
+  position: absolute;
+  top: -19%;
+  left: -2%;
+}
+#ephermal p {
+  font-size: 1.5vw;
+  width: 70%;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+#ephermal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#ephermal h1 {
+  letter-spacing: -2px;
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1;
+}
+
+#visit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#circlebv {
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #5e5e5e;
+}
+
+#circlebv i {
+  color: #5e5e5e;
+}
+
+#visit h3 {
+  font-weight: 500;
+  color: #5e5e5e;
+}
+
+#motive {
+  padding: 0 10vw;
+}
+
+#motive p {
+  text-align: right;
+  font-size: 2vw;
+  width: 50%;
+}
+
+#motive span {
+  display: inline-block;
+  width: 80px;
+  height: 45px;
+  background-color: red;
+  border-radius: 100px;
+  margin: 0 10px;
+}
+#picture {
+  margin-top: 8vw;
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstpic {
+  width: 16vw;
+}
+
+#firstpic #picimg {
+  width: 100%;
+  margin-bottom: 1vw;
+  height: 24vw;
+}
+
+#firstpic {
+  letter-spacing: -0.1vw;
+  font-weight: 400;
+  font-size: 2vw;
+}
+#firstpic p {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 0.1px;
+  line-height: 1rem;
+}
+
+#firstpic h1 {
+  font-size: 1.8vw;
+}
+
+#picimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#secondpic {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 20vw;
+}
+
+#secondpic #picimg {
+  width: 100%;
+  margin-bottom: 1vw;
+  height: 30vw;
+}
+
+#secondpic p {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 0.1px;
+  text-align: right;
+  width: 70%;
+  line-height: 1rem;
+}
+
+#secondpic h1 {
+  font-size: 1.8vw;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  margin-top: 8vw;
+}
+
+#bimg {
+  width: 65%;
+  height: 60vh;
+  background-color: red;
+}
+
+#bimg img {
+  width: 100%;
+  height: 100%;
+  object-position: 0% 70%;
+  object-fit: cover;
+}
+
+#btext {
+  width: 35%;
+  padding: 0 3vw;
+}
+
+#btext h1 {
+  font-size: 3vw;
+  line-height: 1;
+  font-weight: 400;
+}
+
+#btext p {
+  margin-top: 1vw;
+  width: 60%;
+}
+
+#future {
+    position: relative;
+    overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#future video {
+    opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index:10 ;
+    gap: 30px;
+}
+
+#text button{
+    padding: 1vw 2.3vw;
+    font-size: 1vw;
+
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #5e5e5e;
+
+}
